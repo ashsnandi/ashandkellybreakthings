@@ -1,14 +1,22 @@
 package uk.co.compendiumdev.todos;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import uk.co.compendiumdev.sparkstart.Environment;
 import uk.co.compendiumdev.sparkstart.Port;
 import uk.co.compendiumdev.todos.helpers.Payloads;
 import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Tests for PUT /todos/:id full replacement behavior (XML).
@@ -57,7 +65,7 @@ class TodosBugXmlTest {
         }
     }
 
-    // ========== PUT /todos/:id full replacement behavior (XML) ==========
+    // PUT /todos/:id full replacement behavior (XML) 
 
     @Test
     void xmlPutWithOnlyTitleResetsOmittedFieldsToDefaults() {

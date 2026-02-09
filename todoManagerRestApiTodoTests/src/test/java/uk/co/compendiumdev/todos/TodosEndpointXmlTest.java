@@ -1,14 +1,22 @@
 package uk.co.compendiumdev.todos;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import uk.co.compendiumdev.sparkstart.Environment;
 import uk.co.compendiumdev.sparkstart.Port;
 import uk.co.compendiumdev.todos.helpers.Payloads;
 import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Tests for the /todos collection endpoint (XML).
@@ -52,7 +60,7 @@ class TodosEndpointXmlTest {
         }
     }
 
-    // ---------- GET /todos (XML) ----------
+    // GET /todos (XML)
 
     @Test
     void getAllTodosAsXmlReturnsXmlContentType() {
@@ -74,7 +82,7 @@ class TodosEndpointXmlTest {
         Assertions.assertNotNull(firstTitle, "Should contain at least one todo title");
     }
 
-    // ---------- POST /todos (XML) ----------
+    // POST /todos (XML) 
 
     @Test
     void createTodoWithXmlPayloadReturns201() {
@@ -132,7 +140,7 @@ class TodosEndpointXmlTest {
         Assertions.assertEquals(400, response.getStatusCode());
     }
 
-    // ---------- GET /todos?title=X (XML) ----------
+    // GET /todos?title=X (XML) 
 
     @Test
     void filterTodosByTitleAsXml() {

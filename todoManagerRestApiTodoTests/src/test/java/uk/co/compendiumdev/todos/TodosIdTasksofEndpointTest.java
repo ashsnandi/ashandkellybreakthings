@@ -1,14 +1,22 @@
 package uk.co.compendiumdev.todos;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import uk.co.compendiumdev.sparkstart.Environment;
 import uk.co.compendiumdev.sparkstart.Port;
 import uk.co.compendiumdev.todos.helpers.Payloads;
 import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Tests for the /todos/:id/tasksof relationship endpoint (JSON).
@@ -52,7 +60,7 @@ class TodosIdTasksofEndpointTest {
         }
     }
 
-    // ---------- GET /todos/:id/tasksof ----------
+    // GET /todos/:id/tasksof
 
     @Test
     void getTasksOfLinkedTodoReturnsProjects() {

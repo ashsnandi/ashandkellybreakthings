@@ -1,15 +1,23 @@
 package uk.co.compendiumdev.todos;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import uk.co.compendiumdev.sparkstart.Environment;
 import uk.co.compendiumdev.sparkstart.Port;
 import uk.co.compendiumdev.todos.helpers.Payloads;
 import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Tests for the /todos collection endpoint (JSON).
@@ -53,7 +61,7 @@ class TodosEndpointTest {
         }
     }
 
-    // ---------- GET /todos ----------
+    // GET /todos
 
     @Test
     void getAllTodosReturnsAllInstances() {
@@ -82,7 +90,7 @@ class TodosEndpointTest {
         Assertions.assertEquals(countBefore, countAfter);
     }
 
-    // ---------- HEAD /todos ----------
+    // HEAD /todos 
 
     @Test
     void headTodosReturnsHeadersAndEmptyBody() {
@@ -94,7 +102,7 @@ class TodosEndpointTest {
                 "HEAD response body should be empty");
     }
 
-    // ---------- POST /todos ----------
+    // POST /todos 
 
     @Test
     void createTodoWithAllFields() {
@@ -171,7 +179,7 @@ class TodosEndpointTest {
         Assertions.assertEquals(400, response.getStatusCode());
     }
 
-    // ---------- GET /todos?title=X ----------
+    // GET /todos?title=X 
 
     @Test
     void filterTodosByExactTitle() {

@@ -1,14 +1,22 @@
 package uk.co.compendiumdev.todos;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
 import io.restassured.response.Response;
-import org.junit.jupiter.api.*;
 import uk.co.compendiumdev.sparkstart.Environment;
 import uk.co.compendiumdev.sparkstart.Port;
 import uk.co.compendiumdev.todos.helpers.Payloads;
 import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Tests for the /todos/:id endpoint (XML).
@@ -58,7 +66,7 @@ class TodosIdEndpointXmlTest {
         }
     }
 
-    // ---------- GET /todos/:id (XML) ----------
+    // GET /todos/:id (XML)
 
     @Test
     void getTodoByIdAsXmlReturnsAllFields() {
@@ -89,7 +97,7 @@ class TodosIdEndpointXmlTest {
         Assertions.assertEquals(404, response.getStatusCode());
     }
 
-    // ---------- POST /todos/:id (XML amend) ----------
+    // POST /todos/:id (XML amend)
 
     @Test
     void amendTodoWithXmlPayload() {
@@ -126,7 +134,7 @@ class TodosIdEndpointXmlTest {
         Assertions.assertEquals(404, response.getStatusCode());
     }
 
-    // ---------- PUT /todos/:id (XML update) ----------
+    // PUT /todos/:id (XML update)
 
     @Test
     void updateTodoWithXmlPayload() {
@@ -160,7 +168,7 @@ class TodosIdEndpointXmlTest {
         Assertions.assertEquals(404, response.getStatusCode());
     }
 
-    // ---------- DELETE /todos/:id ----------
+    // DELETE /todos/:id
 
     @Test
     void deleteTodoAndVerifyGoneViaXml() {
