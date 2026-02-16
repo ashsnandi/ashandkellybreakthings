@@ -23,10 +23,21 @@ public class Payloads {
         public Boolean active;
         public String description;
         public List<IdValues> tasks;
+        public List<IdValues> categories;
     }
 
     public static class ProjectsPayload {
         public List<ProjectPayload> projects;
+    }
+
+    public static class CategoryPayload {
+        public String id;
+        public String title;
+        public String description;
+    }
+
+    public static class CategoriesPayload {
+        public List<CategoryPayload> categories;
     }
 
     public static class IdValues {
