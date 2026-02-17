@@ -5,12 +5,13 @@ import java.util.Map;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.restassured.response.Response;
 import uk.co.compendiumdev.sparkstart.Environment;
@@ -23,14 +24,15 @@ import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
  * Covers: GET /todos/:id/tasksof
  */
 @TestMethodOrder(MethodOrderer.Random.class)
-class TodosIdTasksofEndpointTest {
+@ExtendWith(uk.co.compendiumdev.todos.helpers.TestNameLogger.class)
+public class TodosIdTasksofEndpointTest {
 
     private Map<String, Payloads.TodoPayload> savedTodos;
 
     @BeforeAll
     static void startServer() {
         Environment.getBaseUri();
-        Assumptions.assumeTrue(
+        Assertions.assertTrue(
                 Port.inUse("localhost", 4567),
                 "Server is not running on localhost:4567");
     }

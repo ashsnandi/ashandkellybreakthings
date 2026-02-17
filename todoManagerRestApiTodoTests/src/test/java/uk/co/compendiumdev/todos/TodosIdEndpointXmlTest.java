@@ -5,12 +5,13 @@ import java.util.Map;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.restassured.response.Response;
 import uk.co.compendiumdev.sparkstart.Environment;
@@ -24,14 +25,15 @@ import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
  *         PUT /todos/:id (XML update), DELETE /todos/:id
  */
 @TestMethodOrder(MethodOrderer.Random.class)
-class TodosIdEndpointXmlTest {
+@ExtendWith(uk.co.compendiumdev.todos.helpers.TestNameLogger.class)
+public class TodosIdEndpointXmlTest {
 
     private Map<String, Payloads.TodoPayload> savedTodos;
 
     @BeforeAll
     static void startServer() {
         Environment.getBaseUri();
-        Assumptions.assumeTrue(
+        Assertions.assertTrue(
                 Port.inUse("localhost", 4567),
                 "Server is not running on localhost:4567");
     }
@@ -188,5 +190,18 @@ class TodosIdEndpointXmlTest {
     void deleteTodoNonExistentIdReturns404() {
         Response response = TodoApiHelper.deleteTodo("99999");
         Assertions.assertEquals(404, response.getStatusCode());
+    }
+
+    @Test
+    void deleteAlreadyDeletedTodoReturns404() {
+        Payloads.TodoPayload newTodo = TodoApiHelper.buildTodo(
+                "xml double delete", "delete twice", false);
+        Response createResponse = TodoApiHelper.createTodo(newTodo);
+        String createdId = createResponse.body().as(Payloads.TodoPayload.class).id;
+
+        TodoApiHelper.deleteTodo(createdId);
+
+        Response secondDelete = TodoApiHelper.deleteTodo(createdId);
+        Assertions.assertEquals(404, secondDelete.getStatusCode());
     }
 }

@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -24,6 +25,7 @@ import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
  * Covers: GET /projects, POST /projects, schema checks, validation.
  */
 @TestMethodOrder(MethodOrderer.Random.class)
+@ExtendWith(uk.co.compendiumdev.todos.helpers.TestNameLogger.class)
 class ProjectsEndpointTest {
 
     private Map<String, Payloads.ProjectPayload> savedProjects;

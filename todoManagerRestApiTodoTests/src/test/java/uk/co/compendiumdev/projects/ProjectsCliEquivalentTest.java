@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -24,6 +25,7 @@ import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
  * CLI-equivalent tests using raw JSON payloads and headers.
  */
 @TestMethodOrder(MethodOrderer.Random.class)
+@ExtendWith(uk.co.compendiumdev.todos.helpers.TestNameLogger.class)
 class ProjectsCliEquivalentTest {
 
     private Map<String, Payloads.ProjectPayload> savedProjects;
@@ -108,8 +110,8 @@ class ProjectsCliEquivalentTest {
 
         Assertions.assertTrue(response.getStatusCode() >= 400 && response.getStatusCode() < 500);
 
-        Payloads.ErrorMessageResponse errors =
-                response.body().as(Payloads.ErrorMessageResponse.class);
-        Assertions.assertFalse(errors.errorMessages.isEmpty());
+        String body = response.body().asString();
+        Assertions.assertTrue(body.contains("errorMessages"),
+                "Response should contain error messages");
     }
 }

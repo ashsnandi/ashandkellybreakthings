@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -24,6 +25,7 @@ import uk.co.compendiumdev.todos.helpers.TodoApiHelper;
  * Tests for PUT /projects/:id (JSON).
  */
 @TestMethodOrder(MethodOrderer.Random.class)
+@ExtendWith(uk.co.compendiumdev.todos.helpers.TestNameLogger.class)
 class ProjectsIdPutEndpointTest {
 
     private Map<String, Payloads.ProjectPayload> savedProjects;
