@@ -5,6 +5,7 @@ const utils = require("../TestUtil.js");
 Before(async function () {
   this.initialTodoIds = new Set(await utils.getAllTodoIds());
   this.initialProjectIds = new Set(await utils.getAllProjectIds());
+  this.initialCategoryIds = new Set(await utils.getAllCategoryIds());
 });
 
 After(async function () {
@@ -19,6 +20,13 @@ After(async function () {
   for (const id of currentProjectIds) {
     if (!this.initialProjectIds.has(id)) {
       await utils.deleteProject(id);
+    }
+  }
+
+  const currentCategoryIds = await utils.getAllCategoryIds();
+  for (const id of currentCategoryIds) {
+    if (!this.initialCategoryIds.has(id)) {
+      await utils.deleteCategory(id);
     }
   }
 });
