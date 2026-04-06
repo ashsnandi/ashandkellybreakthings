@@ -34,4 +34,25 @@ public class Api {
 
         return response;
     }
+
+    public static Response updateProject(int projectId, Payloads.ProjectPayload project){
+
+        final Response response = RestAssured.
+                given().
+                contentType(ContentType.JSON).
+                body(project).
+                put(Environment.getEnv("/projects/" + projectId)).
+                andReturn();
+
+        return response;
+    }
+
+    public static Response deleteProject(int projectId){
+
+        final Response response = RestAssured.
+                delete(Environment.getEnv("/projects/" + projectId)).
+                andReturn();
+
+        return response;
+    }
 }

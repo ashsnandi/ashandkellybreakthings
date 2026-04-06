@@ -1,0 +1,5437 @@
+[
+  {
+    "description": "  As a student I want to create a new todo with a title and description\n  so that I can track my tasks with relevant details",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-a-todo;normal-flow---create-a-todo-with-title-and-description",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Normal flow - Create a todo with title and description",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a student creates a todo with title \"Buy groceries\" and description \"Get milk eggs and bread\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the created todo has title \"Buy groceries\" and description \"Get milk eggs and bread\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;normal-flow---create-a-todo-with-title-and-description",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Create a todo with title and description",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a student creates a todo with title \"Study for midterm\" and description \"Review chapters one to five\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the created todo has title \"Study for midterm\" and description \"Review chapters one to five\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;normal-flow---create-a-todo-with-title-and-description",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Create a todo with title and description",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a student creates a todo with title \"Call the dentist\" and description \"Book a cleaning appointment\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the created todo has title \"Call the dentist\" and description \"Book a cleaning appointment\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;alternate-flow---create-a-todo-with-title-only",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Alternate flow - Create a todo with title only",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "a student creates a todo with title \"Quick note\" and no description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:56"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the created todo has an empty description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:160"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;alternate-flow---create-a-todo-with-title-only",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Alternate flow - Create a todo with title only",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "a student creates a todo with title \"Follow up email\" and no description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:56"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the created todo has an empty description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:160"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;alternate-flow---create-a-todo-with-title-only",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Alternate flow - Create a todo with title only",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "a student creates a todo with title \"Read the news\" and no description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:56"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the todo is created with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:146"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the created todo has an empty description",
+            "match": {
+              "location": "steps/TodoStepDefs.js:160"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;error-flow---attempt-to-create-a-todo-with-an-empty-title",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Error flow - Attempt to create a todo with an empty title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student creates a todo with title \"\" and description \"missing title here\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 400",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the response contains an error message",
+            "match": {
+              "location": "steps/TodoStepDefs.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-todo;error-flow---attempt-to-create-a-todo-with-an-empty-title",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Error flow - Attempt to create a todo with an empty title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student creates a todo with title \"\" and description \"another bad attempt\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 400",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the response contains an error message",
+            "match": {
+              "location": "steps/TodoStepDefs.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-a-todo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create a Todo",
+    "tags": [],
+    "uri": "features/Story1_CreateTodo.feature"
+  },
+  {
+    "description": "  As a student I want to remove a linked todo from a project\n  so that I can reorganize project scope without deleting the task itself",
+    "elements": [
+      {
+        "description": "",
+        "id": "remove-a-todo-from-a-project;normal-flow---remove-a-linked-todo-from-a-project",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Normal flow - Remove a linked todo from a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Personal dashboard\", description \"Track dashboard work\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "a todo with title \"Fix widget layout\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the todo with title \"Fix widget layout\" is linked to the project with title \"Personal dashboard\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "a student removes the todo with title \"Fix widget layout\" from the project with title \"Personal dashboard\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the todo with title \"Fix widget layout\" does not appear in the tasks of project with title \"Personal dashboard\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:210"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the todo with title \"Fix widget layout\" still exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:221"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "remove-a-todo-from-a-project;normal-flow---remove-a-linked-todo-from-a-project",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Normal flow - Remove a linked todo from a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Research board\", description \"Track paper tasks\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "a todo with title \"Summarize article\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the todo with title \"Summarize article\" is linked to the project with title \"Research board\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "a student removes the todo with title \"Summarize article\" from the project with title \"Research board\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the todo with title \"Summarize article\" does not appear in the tasks of project with title \"Research board\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:210"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the todo with title \"Summarize article\" still exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:221"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "remove-a-todo-from-a-project;alternate-flow---remove-one-todo-while-keeping-another-linked-to-the-same-project",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Alternate flow - Remove one todo while keeping another linked to the same project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "a project with title \"API cleanup\", description \"Refine the API scope\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "a todo with title \"Remove old route\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "a todo with title \"Update examples\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the todo with title \"Remove old route\" is linked to the project with title \"API cleanup\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the todo with title \"Update examples\" is linked to the project with title \"API cleanup\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "a student removes the todo with title \"Remove old route\" from the project with title \"API cleanup\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the todo with title \"Remove old route\" does not appear in the tasks of project with title \"API cleanup\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:210"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the todo with title \"Update examples\" appears in the tasks of project with title \"API cleanup\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "remove-a-todo-from-a-project;error-flow---attempt-to-remove-the-same-todo-twice-from-a-project",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "Error flow - Attempt to remove the same todo twice from a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "a project with title \"Refactor roadmap\", description \"Refactor sequencing\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "a todo with title \"Drop old helper\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the todo with title \"Drop old helper\" is linked to the project with title \"Refactor roadmap\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "a student removes the todo with title \"Drop old helper\" from the project with title \"Refactor roadmap\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "a student removes the todo with title \"Drop old helper\" from the project with title \"Refactor roadmap\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "remove-a-todo-from-a-project;error-flow---attempt-to-remove-the-same-todo-twice-from-a-project",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Error flow - Attempt to remove the same todo twice from a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "a project with title \"Deployment queue\", description \"Deployment steps\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "a todo with title \"Remove temp task\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the todo with title \"Remove temp task\" is linked to the project with title \"Deployment queue\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "a student removes the todo with title \"Remove temp task\" from the project with title \"Deployment queue\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "a student removes the todo with title \"Remove temp task\" from the project with title \"Deployment queue\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:142"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "remove-a-todo-from-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Remove a Todo from a Project",
+    "tags": [],
+    "uri": "features/Story10_RemoveTodoFromProject.feature"
+  },
+  {
+    "description": "  As a student I want to mark a todo as done\n  so that I can track which tasks I have completed",
+    "elements": [
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;normal-flow---mark-an-active-todo-as-done",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Normal flow - Mark an active todo as done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Submit assignment\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student marks the todo with title \"Submit assignment\" as done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the todo with title \"Submit assignment\" has doneStatus \"true\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:177"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;normal-flow---mark-an-active-todo-as-done",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Mark an active todo as done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Pay electricity bill\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student marks the todo with title \"Pay electricity bill\" as done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the todo with title \"Pay electricity bill\" has doneStatus \"true\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:177"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;normal-flow---mark-an-active-todo-as-done",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Mark an active todo as done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Water the plants\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student marks the todo with title \"Water the plants\" as done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the todo with title \"Water the plants\" has doneStatus \"true\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:177"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;alternate-flow---mark-a-done-todo-as-not-done",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Alternate flow - Mark a done todo as not done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a todo with title \"Review notes\" and doneStatus true exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student marks the todo with title \"Review notes\" as not done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the todo with title \"Review notes\" has doneStatus \"false\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:177"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;alternate-flow---mark-a-done-todo-as-not-done",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Alternate flow - Mark a done todo as not done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a todo with title \"Buy new notebook\" and doneStatus true exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student marks the todo with title \"Buy new notebook\" as not done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the todo with title \"Buy new notebook\" has doneStatus \"false\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:177"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;error-flow---attempt-to-mark-a-nonexistent-todo-as-done",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Error flow - Attempt to mark a nonexistent todo as done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "a student marks the todo with id \"99991\" as done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:82"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mark-a-todo-as-done;error-flow---attempt-to-mark-a-nonexistent-todo-as-done",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Error flow - Attempt to mark a nonexistent todo as done",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "a student marks the todo with id \"99992\" as done",
+            "match": {
+              "location": "steps/TodoStepDefs.js:82"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "mark-a-todo-as-done",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Mark a Todo as Done",
+    "tags": [],
+    "uri": "features/Story2_MarkTodoDone.feature"
+  },
+  {
+    "description": "  As a student I want to assign a todo to a project\n  so that I can organize my tasks by project",
+    "elements": [
+      {
+        "description": "",
+        "id": "assign-a-todo-to-a-project;normal-flow---assign-a-todo-to-a-project",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Assign a todo to a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Buy textbooks\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "a project with title \"School semester\" exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "a student assigns the todo with title \"Buy textbooks\" to the project with title \"School semester\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the assignment succeeds with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:187"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the todo with title \"Buy textbooks\" appears in the tasks of project with title \"School semester\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "assign-a-todo-to-a-project;normal-flow---assign-a-todo-to-a-project",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Normal flow - Assign a todo to a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Fix the bug\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "a project with title \"Software project\" exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "a student assigns the todo with title \"Fix the bug\" to the project with title \"Software project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the assignment succeeds with status 201",
+            "match": {
+              "location": "steps/TodoStepDefs.js:187"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the todo with title \"Fix the bug\" appears in the tasks of project with title \"Software project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "assign-a-todo-to-a-project;alternate-flow---assign-multiple-todos-to-the-same-project",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Alternate flow - Assign multiple todos to the same project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "a todo with title \"Write report\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "a todo with title \"Edit report\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "a project with title \"Fall project\" exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "a student assigns the todo with title \"Write report\" to the project with title \"Fall project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "a student assigns the todo with title \"Edit report\" to the project with title \"Fall project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the todo with title \"Write report\" appears in the tasks of project with title \"Fall project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the todo with title \"Edit report\" appears in the tasks of project with title \"Fall project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "assign-a-todo-to-a-project;error-flow---attempt-to-assign-a-todo-to-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Error flow - Attempt to assign a todo to a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "a todo with title \"Random task\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "a student assigns the todo with title \"Random task\" to a project with id \"99991\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "assign-a-todo-to-a-project;error-flow---attempt-to-assign-a-todo-to-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 41,
+        "name": "Error flow - Attempt to assign a todo to a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "a todo with title \"Another task\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "a student assigns the todo with title \"Another task\" to a project with id \"99992\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "assign-a-todo-to-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Assign a Todo to a Project",
+    "tags": [],
+    "uri": "features/Story3_AssignTodoToProject.feature"
+  },
+  {
+    "description": "  As a student I want to delete a todo\n  so that I can remove tasks I no longer need to track",
+    "elements": [
+      {
+        "description": "",
+        "id": "delete-a-todo;normal-flow---delete-an-existing-todo",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Delete an existing todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Outdated reminder\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student deletes the todo with title \"Outdated reminder\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the deletion succeeds with status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:202"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the todo with title \"Outdated reminder\" no longer exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:206"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-todo;normal-flow---delete-an-existing-todo",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Delete an existing todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Cancelled meeting\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student deletes the todo with title \"Cancelled meeting\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the deletion succeeds with status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:202"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the todo with title \"Cancelled meeting\" no longer exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:206"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-todo;normal-flow---delete-an-existing-todo",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Normal flow - Delete an existing todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Wrong task entry\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student deletes the todo with title \"Wrong task entry\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the deletion succeeds with status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:202"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the todo with title \"Wrong task entry\" no longer exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:206"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-todo;alternate-flow---delete-a-todo-that-belongs-to-a-project",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Alternate flow - Delete a todo that belongs to a project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "a todo with title \"Draft memo\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "a project with title \"Work project\" exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the todo with title \"Draft memo\" is linked to the project with title \"Work project\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "a student deletes the todo with title \"Draft memo\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the deletion succeeds with status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:202"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the todo with title \"Draft memo\" no longer exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:206"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the project with title \"Work project\" still exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:215"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-todo;error-flow---attempt-to-delete-an-already-deleted-todo",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Error flow - Attempt to delete an already deleted todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "a student deletes a todo with nonexistent id \"99991\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-todo;error-flow---attempt-to-delete-an-already-deleted-todo",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Error flow - Attempt to delete an already deleted todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "a student deletes a todo with nonexistent id \"99992\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "delete-a-todo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Delete a Todo",
+    "tags": [],
+    "uri": "features/Story4_DeleteTodo.feature"
+  },
+  {
+    "description": "  As a student I want to update the details of a todo\n  so that I can keep my task information current and accurate",
+    "elements": [
+      {
+        "description": "",
+        "id": "update-a-todo;normal-flow---replace-a-todo's-title-and-description-using-put",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Replace a todo's title and description using PUT",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Old task name\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student replaces the todo with title \"Old task name\" with title \"New task name\" and description \"Updated description\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:119"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the todo now has title \"New task name\" and description \"Updated description\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:227"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-todo;normal-flow---replace-a-todo's-title-and-description-using-put",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Replace a todo's title and description using PUT",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a todo with title \"Draft title\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student replaces the todo with title \"Draft title\" with title \"Final title\" and description \"Completed description\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:119"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the todo now has title \"Final title\" and description \"Completed description\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:227"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-todo;alternate-flow---amend-only-the-description-of-a-todo-using-post",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Alternate flow - Amend only the description of a todo using POST",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a todo with title \"Research task\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student amends the description of the todo with title \"Research task\" to \"Added more detail here\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the todo with title \"Research task\" has description \"Added more detail here\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:237"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-todo;alternate-flow---amend-only-the-description-of-a-todo-using-post",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Alternate flow - Amend only the description of a todo using POST",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a todo with title \"Planning task\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student amends the description of the todo with title \"Planning task\" to \"Updated the plan details\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the todo with title \"Planning task\" has description \"Updated the plan details\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:237"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-todo;error-flow---attempt-to-update-a-nonexistent-todo",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Error flow - Attempt to update a nonexistent todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student updates a todo with nonexistent id \"99991\" with title \"Will fail\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:137"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-todo;error-flow---attempt-to-update-a-nonexistent-todo",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Error flow - Attempt to update a nonexistent todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student updates a todo with nonexistent id \"99992\" with title \"Also fails\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:137"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-a-todo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Update a Todo",
+    "tags": [],
+    "uri": "features/Story5_UpdateTodo.feature"
+  },
+  {
+    "description": "  As a student I want to create a project\n  so that I can organize related tasks under one piece of work",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-a-project;normal-flow---create-a-project-with-full-details",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Normal flow - Create a project with full details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a student creates a project with title \"Capstone project\", description \"Build the final term project\", active true, and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the project creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the created project has title \"Capstone project\", description \"Build the final term project\", active true, and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-project;normal-flow---create-a-project-with-full-details",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Create a project with full details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "a student creates a project with title \"Internship search\", description \"Track company applications\", active false, and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the project creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the created project has title \"Internship search\", description \"Track company applications\", active false, and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:162"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-project;alternate-flow---create-a-project-with-title-only",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Alternate flow - Create a project with title only",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a student creates a project with title \"Weekend errands\" only",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the project creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the created project keeps title \"Weekend errands\" with default active false and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-project;alternate-flow---create-a-project-with-title-only",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Alternate flow - Create a project with title only",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a student creates a project with title \"Research backlog\" only",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the project creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the created project keeps title \"Research backlog\" with default active false and completed false",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:170"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-project;error-flow---attempt-to-create-a-project-with-an-invalid-active-value",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Error flow - Attempt to create a project with an invalid active value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "a student creates a project with title \"Broken project\" and invalid active value \"yes please\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the request fails with a client error status",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:158"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the response contains an error message",
+            "match": {
+              "location": "steps/TodoStepDefs.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-a-project;error-flow---attempt-to-create-a-project-with-an-invalid-active-value",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Error flow - Attempt to create a project with an invalid active value",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "a student creates a project with title \"Invalid booleans\" and invalid active value \"definitely\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the request fails with a client error status",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:158"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the response contains an error message",
+            "match": {
+              "location": "steps/TodoStepDefs.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create a Project",
+    "tags": [],
+    "uri": "features/Story6_CreateProject.feature"
+  },
+  {
+    "description": "  As a student I want to update project details\n  so that my project information stays accurate as work changes",
+    "elements": [
+      {
+        "description": "",
+        "id": "update-a-project;normal-flow---replace-all-project-details-with-put",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Replace all project details with PUT",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Semester plan\", description \"Initial milestone\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student replaces the project with title \"Semester plan\" with title \"Semester project\", description \"Finalized milestone\", active false, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the project with title \"Semester project\" has title \"Semester project\", description \"Finalized milestone\", active false, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:178"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-project;normal-flow---replace-all-project-details-with-put",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Replace all project details with PUT",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"App rewrite\", description \"Rewrite prototype\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student replaces the project with title \"App rewrite\" with title \"App launch\", description \"Release-ready backlog\", active true, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the project with title \"App launch\" has title \"App launch\", description \"Release-ready backlog\", active true, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:178"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-project;alternate-flow---mark-an-existing-project-as-completed-with-post",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Alternate flow - Mark an existing project as completed with POST",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a project with title \"Reading tracker\", description \"Track required readings\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student marks the project with title \"Reading tracker\" as completed",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the project with title \"Reading tracker\" has title \"Reading tracker\", description \"Track required readings\", active true, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:178"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-project;alternate-flow---mark-an-existing-project-as-completed-with-post",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Alternate flow - Mark an existing project as completed with POST",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a project with title \"Demo preparation\", description \"Prepare the final demo\", active false, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student marks the project with title \"Demo preparation\" as completed",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response has status 200",
+            "match": {
+              "location": "steps/TodoStepDefs.js:223"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the project with title \"Demo preparation\" has title \"Demo preparation\", description \"Prepare the final demo\", active false, and completed true",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:178"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-project;error-flow---attempt-to-update-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Error flow - Attempt to update a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student updates a project with nonexistent id \"99991\" with title \"Missing project\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:103"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-a-project;error-flow---attempt-to-update-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Error flow - Attempt to update a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student updates a project with nonexistent id \"99992\" with title \"Another missing\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:103"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Update a Project",
+    "tags": [],
+    "uri": "features/Story7_UpdateProject.feature"
+  },
+  {
+    "description": "  As a student I want to delete a project\n  so that I can remove workspaces that are no longer relevant",
+    "elements": [
+      {
+        "description": "",
+        "id": "delete-a-project;normal-flow---delete-an-existing-project",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Delete an existing project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Old lab project\", description \"Obsolete lab workspace\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student deletes the project with title \"Old lab project\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the project deletion succeeds with status 200",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the project with title \"Old lab project\" no longer exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:190"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-project;normal-flow---delete-an-existing-project",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Delete an existing project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Travel planning\", description \"Past trip checklist\", active false, and completed true exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student deletes the project with title \"Travel planning\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the project deletion succeeds with status 200",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the project with title \"Travel planning\" no longer exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:190"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-project;alternate-flow---delete-a-project-without-deleting-its-linked-todo",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Alternate flow - Delete a project without deleting its linked todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a project with title \"Group presentation\", description \"Slides and practice notes\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "a todo with title \"Practice speaking\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the todo with title \"Practice speaking\" is linked to the project with title \"Group presentation\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "a student deletes the project with title \"Group presentation\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the project deletion succeeds with status 200",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the project with title \"Group presentation\" no longer exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:190"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the todo with title \"Practice speaking\" still exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:221"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-project;alternate-flow---delete-a-project-without-deleting-its-linked-todo",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Alternate flow - Delete a project without deleting its linked todo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a project with title \"Work archive\", description \"Archived work items\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "a todo with title \"Save reference docs\" and doneStatus false exists",
+            "match": {
+              "location": "steps/TodoStepDefs.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the todo with title \"Save reference docs\" is linked to the project with title \"Work archive\"",
+            "match": {
+              "location": "steps/TodoStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "a student deletes the project with title \"Work archive\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the project deletion succeeds with status 200",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the project with title \"Work archive\" no longer exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:190"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the todo with title \"Save reference docs\" still exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:221"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-project;error-flow---attempt-to-delete-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Error flow - Attempt to delete a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "a student deletes a project with nonexistent id \"99991\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:117"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-a-project;error-flow---attempt-to-delete-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Error flow - Attempt to delete a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "a student deletes a project with nonexistent id \"99992\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:117"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "delete-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Delete a Project",
+    "tags": [],
+    "uri": "features/Story8_DeleteProject.feature"
+  },
+  {
+    "description": "  As a student I want to add categories to a project\n  so that I can group project work into clearer themes",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-a-category-to-a-project;normal-flow---add-a-category-to-an-existing-project",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Normal flow - Add a category to an existing project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Thesis planning\", description \"Organize thesis work\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student creates a category with title \"Literature\" and description \"Papers and notes\" under the project with title \"Thesis planning\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the category creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:154"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the category with title \"Literature\" appears under the project with title \"Thesis planning\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:199"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-a-category-to-a-project;normal-flow---add-a-category-to-an-existing-project",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Normal flow - Add a category to an existing project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "a project with title \"Club website\", description \"Improve the club website\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "a student creates a category with title \"Design\" and description \"Visual assets\" under the project with title \"Club website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the category creation succeeds",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:154"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the category with title \"Design\" appears under the project with title \"Club website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:199"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-a-category-to-a-project;alternate-flow---add-multiple-categories-to-the-same-project",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Alternate flow - Add multiple categories to the same project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "a project with title \"Course website\", description \"Refresh course portal\", active true, and completed false exists",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "a student creates a category with title \"Content\" and description \"Page copy\" under the project with title \"Course website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "a student creates a category with title \"Testing\" and description \"Regression notes\" under the project with title \"Course website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the category with title \"Content\" appears under the project with title \"Course website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:199"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the category with title \"Testing\" appears under the project with title \"Course website\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:199"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-a-category-to-a-project;error-flow---attempt-to-add-a-category-to-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Error flow - Attempt to add a category to a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student creates a category with title \"Missing parent\" and description \"Category with no home\" under a project with id \"99991\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:135"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-a-category-to-a-project;error-flow---attempt-to-add-a-category-to-a-nonexistent-project",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Error flow - Attempt to add a category to a nonexistent project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the todo manager service is running",
+            "match": {
+              "location": "steps/CommonStepDefs.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "a student creates a category with title \"Ghost category\" and description \"Another missing home\" under a project with id \"99992\"",
+            "match": {
+              "location": "steps/ProjectStoryStepDefs.js:135"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the request fails with status 404",
+            "match": {
+              "location": "steps/TodoStepDefs.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-a-category-to-a-project",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add a Category to a Project",
+    "tags": [],
+    "uri": "features/Story9_AddCategoryToProject.feature"
+  }
+]

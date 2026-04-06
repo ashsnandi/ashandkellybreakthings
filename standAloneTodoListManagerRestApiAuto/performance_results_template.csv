@@ -1,0 +1,16 @@
+Operation,ProjectCount,TimeMs,MemoryUsedMB,CPUUtilizationPercent,Notes
+CREATE,10,0,0,0,Initial test - warm-up
+CREATE,50,0,0,0,
+CREATE,100,0,0,0,
+CREATE,500,0,0,0,
+CREATE,1000,0,0,0,
+UPDATE,10,0,0,0,After creating projects
+UPDATE,50,0,0,0,
+UPDATE,100,0,0,0,
+UPDATE,500,0,0,0,
+UPDATE,1000,0,0,0,
+DELETE,10,0,0,0,After updating projects
+DELETE,50,0,0,0,
+DELETE,100,0,0,0,
+DELETE,500,0,0,0,
+DELETE,1000,0,0,0,

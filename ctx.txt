@@ -1,0 +1,117 @@
+Part C Non-Functional Testing of Rest API
+Two types of non-functional testing will be implemented in part C of the project. Performance Testing
+using Dynamic Analysis and Static Analysis of the source code.
+Performance Testing
+Create a program which creates objects based on the API explored in part A of the project. Populate
+these objects with random data.
+Adapt unit test code from Part A to measure the time to complete a create, delete or change object
+operation.
+Perform the following experiments:
+o As the number of objects increases measure the time required to add, delete, or change the
+objects.
+Use operating system tools or open-source tools to track CPU percent use and Available Free Memory
+while each experiment takes place.
+Operating system tools that may support dynamic analysis include:
+Windows perfmon
+Mac Activity Monitor
+Linux vmstat
+Static Analysis
+The source code of the Rest API to do list manager will be studied with any available static analysis tool
+which supports analysis of the Java code base of the “rest api todo list manager”.
+Students may choose the community edition of the Sonar Cube static analysis tool. Due to JDK
+compatibility requirements with the project software, teams must use a 2023 version of SonarQube (such
+as SonarQube 9.9 LTS) for the static analysis portion. This version is still officially supported and can be
+downloaded from the SonarQube historical downloads page:
+https://www.sonarsource.com/products/sonarqube/downloads/historical-
+downloads/
+Recommendations should be made regarding changes to the source code to minimize risk during future
+modifications, enhancements, or bug fixes. Teams should look at code complexity, code statement
+counts, and any technical risks, technical debt or code smells highlighted by the static analysis.
+Performance Test Suite Video
+Show video of all performance tests running in the teams selected development environment.
+Written Report
+Target report size is between 5 and 10 pages.
+Summarizes deliverables.
+Describes implementation of performance test suite.
+ECSE-429 Project Winter 2026 Semester
+8
+Include charts (excel or other tool) showing transaction time, memory use and cpu use versus
+number of objects for each experiment.
+Summarize any recommendations for code enhancements related to results of performance
+testing.
+Highlight any observed performance risks.
+Describes implementation of static analysis with Sonar Cube community edition.
+Include recommendations for improving code based on the result of the static analysis.
+ECSE-429 Project Winter 2026 Semester
+9
+Summary of clean code guidelines from Bob Martin.
+Understandability tips
+o Be consistent. If you do something a certain way, do all similar things in the same way.
+o Use explanatory variables.
+o Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the
+processing for them in one place.
+o Prefer dedicated value objects to primitive type.
+o Avoid logical dependency. Don't write methods which works correctly depending on something
+else in the same class.
+o Avoid negative conditionals.
+Names rules
+o Choose descriptive and unambiguous names.
+o Make meaningful distinction.
+o Use pronounceable names.
+o Use searchable names.
+o Replace magic numbers with named constants.
+o Avoid encodings. Do not append prefixes or type information.
+Functions rules
+o Small.
+o Do one thing.
+o Use descriptive names.
+o Prefer fewer arguments.
+o Have no side effects.
+o Don't use flag arguments. Split method into several independent methods that can be called
+from the client without the flag.
+Comments rules
+o Always try to explain yourself in code.
+o Don't be redundant.
+o Don't add obvious noise.
+o Don't use closing brace comments.
+o Don't comment out code. Just remove.
+o Use as explanation of intent.
+o Use as clarification of code.
+o Use as warning of consequences.
+Source code structure
+o Separate concepts vertically.
+o Related code should appear vertically dense.
+o Declare variables close to their usage.
+ECSE-429 Project Winter 2026 Semester
+10
+o Dependent functions should be close.
+o Similar functions should be close.
+o Place functions in the downward direction.
+o Keep lines short.
+o Don't use horizontal alignment.
+o Use white space to associate related things and disassociate weakly related.
+o Don't break indentation.
+o Objects and data structures
+o Hide internal structure.
+o Prefer data structures.
+o Avoid hybrids structures (half object and half data).
+o Should be small.
+o Do one thing.
+o Small number of instance variables.
+o Base class should know nothing about their derivatives.
+o Better to have many functions than to pass some code into a function to select a behavior.
+o Prefer non-static methods to static methods.
+Tests
+o Readable.
+o Fast.
+o Independent.
+o Repeatable.
+Avoid Code smells
+o Rigidity. The software is difficult to change. A small change causes a cascade of subsequent
+changes.
+o Fragility. The software breaks in many places due to a single change.
+o Immobility. You cannot reuse parts of the code in other projects because of involved risks and
+high effort.
+o Needless Complexity.
+o Needless Repetition.
+o Opacity. The code is hard to understand

@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "BDD story tests for the Todo Manager REST API",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "test:normal": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js --order defined",
+    "test:random": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js --order random",
+    "testrandom:seed": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js --order random:42"
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.5.1",
